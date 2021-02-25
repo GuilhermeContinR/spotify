@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
+import Routes from './routes'
 ReactDOM.render(
   <React.StrictMode>
-   <div><h1>Go</h1></div>
+      <Routes/>
   </React.StrictMode>,
   document.getElementById('root')
 );
